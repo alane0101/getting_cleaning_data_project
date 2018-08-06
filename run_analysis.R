@@ -3,17 +3,17 @@ lapply(packages, library, character.only = TRUE)
 
 # Read the various datasets into variables
 
-trainlabels <- fread("./train/y_train.txt")
-trainset <- fread("./train/X_train.txt")
-trainsubj <- fread("./train/subject_train.txt")
+trainlabels <- fread("./UCI\ HAR\ Dataset/train/y_train.txt")
+trainset <- fread("./UCI\ HAR\ Dataset/train/X_train.txt")
+trainsubj <- fread("./UCI\ HAR\ Dataset/train/subject_train.txt")
 
-testlabels <- fread("./test/y_test.txt")
-testset <- fread("./test/X_test.txt")
-testsubj <- fread("./test/subject_test.txt")
+testlabels <- fread("./UCI\ HAR\ Dataset/test/y_test.txt")
+testset <- fread("./UCI\ HAR\ Dataset/test/X_test.txt")
+testsubj <- fread("./UCI\ HAR\ Dataset/test/subject_test.txt")
 
-activitylabels <- fread("./activity_labels.txt")
+activitylabels <- fread("./UCI\ HAR\ Dataset/activity_labels.txt")
 
-featurenames <- fread("./features.txt")
+featurenames <- fread("./UCI\ HAR\ Dataset/features.txt")
 
 # Label the dataset with descriptive variable names
 

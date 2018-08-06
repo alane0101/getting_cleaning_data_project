@@ -11,5 +11,5 @@ All transformation of the dataset is performed with one script: 'run_analysis.R'
 
 The 'merged' object returns a dataframe that satisfies the first three (3) conditions. The 'tidy_avg' relies on 'merged' to satisfy the fourth (4) requirement.
 
-The _run_analysis.R_ script relies on relative paths. All necessary files, including the script, are located in the *_UCI HAR Dataset_* folder.
+The _run_analysis.R_ script relies on relative paths. All files it calls are located in the *_UCI HAR Dataset_* folder.
 
